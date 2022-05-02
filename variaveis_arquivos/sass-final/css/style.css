@@ -9,7 +9,7 @@ section {
 
 /* line 35, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
 .modal h1 {
-  color: orange;
+  color: #1bdf56;
   font-family: monospace;
   margin-bottom: 60px;
   font-size: 4rem;
@@ -42,7 +42,7 @@ section {
   padding: 10px;
   border-radius: 4px;
   text-align: center;
-  background: orange;
+  background: #1bdf56;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
