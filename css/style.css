@@ -1,24 +1,24 @@
-/* line 1, ../../../Desktop/SASS/scss/_color.scss */
+/* line 1, ../../../../../Desktop/SASS/scss/_color.scss */
 p {
   color: blue;
   background-color: gray;
 }
 
-/* line 1, ../../../Desktop/SASS/scss/_button.scss */
+/* line 1, ../../../../../Desktop/SASS/scss/_button.scss */
 a {
   display: block;
   width: 200px;
   height: 40px;
 }
 
-/* line 5, ../../../Desktop/SASS/scss/style.scss */
+/* line 5, ../../../../../Desktop/SASS/scss/style.scss */
 div {
   background: #999;
   height: 200px;
   width: 200px;
 }
 
-/* line 9, ../../../Desktop/SASS/scss/style.scss */
+/* line 9, ../../../../../Desktop/SASS/scss/style.scss */
 div a {
   color: pink;
 }
