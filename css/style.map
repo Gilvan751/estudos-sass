@@ -2,11 +2,13 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"../scss/style.scss"
+		"../scss/style.scss",
+		"../scss/_color.scss"
 	],
 	"sourcesContent": [
-		"$preto: #999;\r\n\r\ndiv {\r\n    background: $preto;\r\n    height: 200px;\r\n    width: 200px;\r\n    a {\r\n        color: pink;\r\n    }\r\n}"
+		"@import \"color\";\r\n$preto: #999;\r\n\r\ndiv {\r\n    background: $preto;\r\n    height: 200px;\r\n    width: 200px;\r\n    a {\r\n        color: pink;\r\n    }\r\n}",
+		"p {\r\n    color:blue;\r\n    background-color: gray;\r\n}"
 	],
 	"names": [],
-	"mappings": ";AAEA,AAAA,GAAG,CAAC;EACA,UAAU,EAHN,IAAI;EAIR,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CAIf;;;AAPD,AAII,GAJD,CAIC,CAAC,CAAC;EACE,KAAK,EAAE,IAAI;CACd"
+	"mappings": ";ACAA,AAAA,CAAC,CAAC;EACE,KAAK,EAAC,IAAI;EACV,gBAAgB,EAAE,IAAI;CACzB;;;ADAD,AAAA,GAAG,CAAC;EACA,UAAU,EAHN,IAAI;EAIR,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CAIf;;;AAPD,AAII,GAJD,CAIC,CAAC,CAAC;EACE,KAAK,EAAE,IAAI;CACd"
 }
