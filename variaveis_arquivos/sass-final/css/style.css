@@ -1,26 +1,42 @@
-/* line 5, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
+/* line 29, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
 section {
   max-width: 600px;
   margin: 0 auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
-/* line 10, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
-h1 {
+/* line 35, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
+.modal h1 {
   color: orange;
   font-family: monospace;
   margin-bottom: 60px;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: monospace;
+  line-height: 1;
 }
 
-/* line 16, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
-p {
+/* line 13, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
+.modal h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: blue;
+}
+
+/* line 43, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
+.modal p {
   font-size: 1.2em;
   line-height: 1.4;
   max-width: 400px;
   font-family: monospace;
 }
 
-/* line 23, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
-a {
+/* line 50, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
+.modal a {
   display: block;
   max-width: 120px;
   padding: 10px;
@@ -31,6 +47,32 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: monospace;
+}
+
+/* line 64, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
+ul {
+  text-align: center;
+}
+
+/* line 66, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+/* line 69, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
+ul li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+}
+
+/* line 76, ../../../../../Desktop/SASS/variaveis_arquivos/sass-final/scss/style.scss */
+ul li a:hover {
+  background-color: pink;
 }
 
 /*# sourceMappingURL=style.css.map */
