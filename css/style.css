@@ -4,14 +4,21 @@ p {
   background-color: gray;
 }
 
-/* line 4, ../../../Desktop/SASS/scss/style.scss */
+/* line 1, ../../../Desktop/SASS/scss/_button.scss */
+a {
+  display: block;
+  width: 200px;
+  height: 40px;
+}
+
+/* line 5, ../../../Desktop/SASS/scss/style.scss */
 div {
   background: #999;
   height: 200px;
   width: 200px;
 }
 
-/* line 8, ../../../Desktop/SASS/scss/style.scss */
+/* line 9, ../../../Desktop/SASS/scss/style.scss */
 div a {
   color: pink;
 }
