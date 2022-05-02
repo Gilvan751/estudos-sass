@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "color.css",
+	"sources": [
+		"../scss/color.scss"
+	],
+	"sourcesContent": [
+		"p {\r\n    color:blue;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,KAAK,EAAC,IAAI;CACb"
+}
